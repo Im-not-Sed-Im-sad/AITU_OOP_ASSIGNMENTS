@@ -1,4 +1,5 @@
-//Alexandr Dudkin
+//Alexandr Dudkin MT-2501//Alexandr Dudkin MT-2501//Alexandr Dudkin MT-2501//Alexandr Dudkin MT-2501//Alexandr Dudkin MT-2501
+
 import java.util.Scanner;
 
 public class Main {
@@ -36,7 +37,7 @@ public class Main {
         System.out.print("Is alive? (true/false): ");
         boolean IsAlive = scanner.nextBoolean();
 
-        scanner.nextLine(); // clear buffer
+        scanner.nextLine();
 
         System.out.print("Enter university: ");
         String university = scanner.nextLine();
