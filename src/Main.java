@@ -52,7 +52,7 @@ public class Main {
         System.out.println(" ");
         System.out.println(student2.getGPA() + " Wow cool GPA, " + student2.getName());
         System.out.println(" ");
-        System.out.println("Is it Your real salary?" + employee2.getEmployeeSalary());
+        System.out.println("There is a static field " + Employee.companyName);
         System.out.println(" ");
         human1.FirstCommon();
         System.out.println(" ");

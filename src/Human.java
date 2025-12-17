@@ -19,7 +19,6 @@ public class Human{
         this.name = name;
         this.IsAlive = IsAlive;
     }
-
     public int getAge() {
         return age;
     }
