@@ -1,12 +1,12 @@
 public class Human{
     private String name;
     private int age;
-    private boolean IsAlive;
+    private boolean isAlive;
     public Human(){}
     public Human(String name, int age, boolean IsAlive){
         this.name = name;
         this.age = age;
-        this.IsAlive = IsAlive;
+        this.isAlive = IsAlive;
     }
     public Human(String name, int age){
         this.name = name;
@@ -15,9 +15,9 @@ public class Human{
     public Human(String name){
         this.name = name;
     }
-    public Human(String name, boolean IsAlive){
+    public Human(String name, boolean isAlive){
         this.name = name;
-        this.IsAlive = IsAlive;
+        this.isAlive = isAlive;
     }
     public int getAge() {
         return age;
@@ -35,11 +35,11 @@ public class Human{
         this.name = name;
     }
     public boolean getIsAlive() {
-        return IsAlive;
+        return isAlive;
     }
 
     public void setIsAlive(boolean alive) {
-        IsAlive = alive;
+        isAlive = alive;
     }
 
     public void FirstCommon() {
@@ -47,7 +47,7 @@ public class Human{
     }
     public void SecondCommon() {
         System.out.println("You are " + age + " years old");
-        if(IsAlive){
+        if(isAlive){
             System.out.println("And to my regret, you are alive");
         }
         else{

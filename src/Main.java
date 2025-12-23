@@ -19,14 +19,14 @@ public class Main {
         student2.setAge(19);
         student2.setIsAlive(true);
         student2.setUniversity("ENU");
-        student2.setGPA(3.14F);
+        student2.setGpa(3.14F);
 
         Employee employee2 = new Employee();
         employee2.setName("Diyar");
         employee2.setAge(22);
         employee2.setIsAlive(true);
         employee2.setEmployeeSalary(800.22F);
-        employee2.setEmployeeStudy("ProMaster");
+        employee2.setEmployeestudy("ProMaster");
 
         System.out.print("Enter student name: ");
         String name = scanner.nextLine();
@@ -46,11 +46,11 @@ public class Main {
         float GPA = Float.parseFloat(scanner.nextLine());
 
         Student student3 = new Student(name, age, IsAlive ,university,GPA);
-        System.out.println("There is your student: "+ student3.getName() + " " + student3.getAge() + " " + student3.getIsAlive() + " " + student3.getUniversity() + " " + student3.getGPA());
+        System.out.println("There is your student: "+ student3.getName() + " " + student3.getAge() + " " + student3.getIsAlive() + " " + student3.getUniversity() + " " + student3.getGpa());
         System.out.println(" ");
         System.out.println("Hello old man " + human2.getName());
         System.out.println(" ");
-        System.out.println(student2.getGPA() + " Wow cool GPA, " + student2.getName());
+        System.out.println(student2.getGpa() + " Wow cool GPA, " + student2.getName());
         System.out.println(" ");
         System.out.println("There is a static field " + Employee.companyName);
         System.out.println(" ");

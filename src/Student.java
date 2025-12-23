@@ -1,20 +1,20 @@
 public class Student  extends Human {
     private String university;
-    private float GPA;
+    private float gpa;
 
     public Student() {}
-    public Student(String name, int age, boolean IsAlive , String university, float GPA) {
+    public Student(String name, int age, boolean IsAlive , String university, float gpa) {
         super(name, age, IsAlive);
         this.university = university;
-        this.GPA = GPA;
+        this.gpa = gpa;
     }
     public Student(String name, int age, boolean IsAlive , String university) {
         super(name, age, IsAlive);
         this.university = university;
     }
-    public Student(String name, int age, boolean IsAlive ,float GPA ) {
+    public Student(String name, int age, boolean IsAlive ,float gpa) {
         super(name, age, IsAlive);
-        this.GPA = GPA;
+        this.gpa = gpa;
     }
 
     @Override
@@ -46,6 +46,6 @@ public class Student  extends Human {
         return university;
     }
     public void setUniversity(String university) { this.university = university; }
-    public float getGPA() { return GPA; }
-    public void setGPA(float GPA) { this.GPA = GPA; }
+    public float getGpa() { return gpa; }
+    public void setGpa(float gpa) { this.gpa = gpa; }
 }
