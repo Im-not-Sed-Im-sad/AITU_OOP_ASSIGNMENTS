@@ -18,30 +18,7 @@ public class Employee  extends Human {
         super(name, age, isAlive);
         this.employeeSalary = employeeSalary;
     }
-    @Override
-    public String getName() {
-        return super.getName();
-    }
-    @Override
-    public void setName(String name) {
-        super.setName(name);
-    }
 
-    @Override
-    public boolean getIsAlive() {
-        return super.getIsAlive();
-    }
-    @Override
-    public void setIsAlive(boolean IsAlive) {
-        super.setIsAlive(IsAlive);
-    }
-
-    @Override
-    public int getAge() {
-        return super.getAge();
-    }
-    @Override
-    public void setAge(int age) {}
 
     public float getEmployeeSalary() {
         return employeeSalary;
