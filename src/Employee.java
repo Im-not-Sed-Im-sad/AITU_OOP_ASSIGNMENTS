@@ -4,18 +4,18 @@ public class Employee  extends Human {
     public static String companyName = "AITU" ;
 
     public Employee() {}
-    public Employee(String name, int age,boolean IsAlive, String EmployeeStudy, float EmployeeSalary){
-        super(name, age, IsAlive);
-        this.employeeStudy = EmployeeStudy;
-        this.employeeSalary = EmployeeSalary;
+    public Employee(String name, int age,boolean isAlive, String employeeStudy, float employeeSalary){
+        super(name, age, isAlive);
+        this.employeeStudy = employeeStudy;
+        this.employeeSalary = employeeSalary;
     }
-    public Employee(String name, int age,boolean IsAlive, String employeeStudy){
-        super(name, age, IsAlive);
+    public Employee(String name, int age,boolean isAlive, String employeeStudy){
+        super(name, age, isAlive);
         this.employeeStudy = employeeStudy;
 
     }
-    public Employee(String name, int age,boolean IsAlive, float employeeSalary){
-        super(name, age, IsAlive);
+    public Employee(String name, int age,boolean isAlive, float employeeSalary){
+        super(name, age, isAlive);
         this.employeeSalary = employeeSalary;
     }
     @Override

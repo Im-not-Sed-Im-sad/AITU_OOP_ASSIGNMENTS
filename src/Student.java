@@ -3,17 +3,17 @@ public class Student  extends Human {
     private float gpa;
 
     public Student() {}
-    public Student(String name, int age, boolean IsAlive , String university, float gpa) {
-        super(name, age, IsAlive);
+    public Student(String name, int age, boolean isAlive , String university, float gpa) {
+        super(name, age, isAlive);
         this.university = university;
         this.gpa = gpa;
     }
-    public Student(String name, int age, boolean IsAlive , String university) {
-        super(name, age, IsAlive);
+    public Student(String name, int age, boolean isAlive , String university) {
+        super(name, age, isAlive);
         this.university = university;
     }
-    public Student(String name, int age, boolean IsAlive ,float gpa) {
-        super(name, age, IsAlive);
+    public Student(String name, int age, boolean isAlive ,float gpa) {
+        super(name, age, isAlive);
         this.gpa = gpa;
     }
 
