@@ -9,6 +9,10 @@ public class Main {
         Student student1 = new Student("Eddik", 18, true, "AITU", 2.33F);
         Employee employee1 = new Employee("Jack", 23, true, "AITU, bachelor", 911F);
 
+        System.out.println(human1.getName() + " " + human1.getAge() + " " + human1.getIsAlive());
+        System.out.println(student1.getName() + " " + student1.getAge() + " " + student1.getIsAlive() + " " + student1.getUniversity() + " " + student1.getGpa());
+        System.out.println(employee1.getName() + " " + employee1.getAge() + " " + employee1.getIsAlive() + " " + employee1.getEmployeestudy() + " " + employee1.getEmployeeSalary());
+
         Human human2 = new Human();
         human2.setName("Alexandr");
         human2.setAge(99);
